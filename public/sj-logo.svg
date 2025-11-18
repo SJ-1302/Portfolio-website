@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <!-- Teal → Yellow gradient -->
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2ad7c9"></stop>
+      <stop offset="100%" stop-color="#f7a531"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="120" height="120" rx="26" fill="url(#g)"></rect>
+
+  <!-- Thin, VERY LARGE SJ -->
+  <text x="50%" y="72%" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="90" fill="#1a1a1a">
+    SJ
+  </text>
+</svg>
